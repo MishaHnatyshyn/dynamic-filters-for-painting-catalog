@@ -229,11 +229,12 @@ export default class Filters extends Component {
         </h3>
 
         <AllFilters
-          filters={
-                        this.filters.masters
-                          .concat(this.filters.categories)
-                          .concat(this.filters.techniques)
-                    }
+          filters=
+            {
+              this.filters.masters
+                .concat(this.filters.categories)
+                .concat(this.filters.techniques)
+            }
         />
 
         <PriceFilter />
